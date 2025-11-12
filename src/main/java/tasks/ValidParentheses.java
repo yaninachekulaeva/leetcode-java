@@ -17,11 +17,11 @@ public class ValidParentheses {
 
     public static boolean isValid(String s) {
         boolean isValid = false;
-        Map<String, String> pairs = new HashMap<String, String>();
+        Map<String, String> pairs = new HashMap<>();
         pairs.put("(", ")");
         pairs.put("{", "}");
         pairs.put("[", "]");
-        Stack<String> stack = new Stack<String>();
+        Stack<String> stack = new Stack<>();
         for (int i = 0; i < s.length(); i++) {
             if (pairs.get(s.substring(0, 1)) == null) {
                 isValid = false;

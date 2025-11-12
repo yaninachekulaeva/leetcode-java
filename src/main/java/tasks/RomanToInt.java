@@ -13,7 +13,7 @@ public class RomanToInt {
 
     public static int romanToInt(String s) {
         int result = 0;
-        HashMap<String, Integer> keys = new HashMap<String, Integer>();
+        HashMap<String, Integer> keys = new HashMap<>();
         keys.put("I", 1);
         keys.put("V", 5);
         keys.put("X", 10);
