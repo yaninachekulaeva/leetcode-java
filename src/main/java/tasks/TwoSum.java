@@ -5,10 +5,7 @@ import java.util.Arrays;
 public class TwoSum {
 
     public static void main(String[] args) {
-        int[] nums = new int[3];
-        nums[0] = 3;
-        nums[1] = 2;
-        nums[2] = 3;
+        int[] nums = new int[]{3,2,3};
         System.out.println(Arrays.toString(twoSum(nums, 6)));
     }
 
